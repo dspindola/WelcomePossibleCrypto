@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    // Enable latest features
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "allowJs": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "strict": true,
+    "types": [
+      "vite/client",
+      "react/canary",
+      "react-dom/canary",
+      "bun"
+    ]
+  },
+  "include": [
+    "src",
+    "api",
+    "components"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

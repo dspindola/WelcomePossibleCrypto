@@ -8,9 +8,10 @@ modules = ["nodejs-20", "web"]
 channel = "stable-23_11"
 
 [env]
-PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin"
+PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin:/home/runner/$REPL_SLUG/.config/bun/bin"
 XDG_CONFIG_HOME = "/home/runner/.config"
 npm_config_prefix = "/home/runner/$REPL_SLUG/.config/npm/node_global"
+BUN_INSTALL = "/home/runner/$REPL_SLUG/.config/bun"
 
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix", ".config"]

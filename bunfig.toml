@@ -1,0 +1,16 @@
+jsx = "react-jsx"
+jsxImportSource = "react"
+telemetry = false
+smol = true
+
+[loader]
+".replit" = "toml"
+".ts" = "ts"
+".tsx" = "tsx"
+".js" = "js"
+".jsx" = "jsx"
+".css" = "css"
+
+[test]
+root = "./__test__"
+preload = ["./__test__/setup.ts"]
