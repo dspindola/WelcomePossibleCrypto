@@ -1,12 +1,10 @@
 {
-    "compilerOptions": {
-        "target": "ESNext",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "composite": true,
-        "esModuleInterop": true
-    },
-    "include": [
-        "vite.config.ts"
-    ]
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"composite": true,
+		"esModuleInterop": true
+	},
+	"include": ["vite.config.ts"]
 }

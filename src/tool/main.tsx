@@ -1,8 +1,10 @@
-import * as React from "react";
-import { renderExtension } from "@replit/extensions-react";
+import { createRoot } from "react-dom/client";
+import Tool from "./tool";
+import React from "react";
+import Loading from "../../components/loading";
 
-function Component() {
-  return <div>Example tool</div>;
-}
-
-renderExtension(document.getElementById("root") as Element, <Component />);
+createRoot(document.getElementById("root") as Element).render(
+	<React.Suspense fallback={<Loading />}>
+		<Tool />
+	</React.Suspense>,
+);

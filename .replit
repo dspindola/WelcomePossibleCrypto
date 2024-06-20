@@ -1,4 +1,4 @@
-run = "replkit dev"
+run = "bun dev"
 entrypoint = "src/App.jsx"
 
 hidden = [".config", ".git", ".gitignore"]
@@ -32,6 +32,6 @@ start = "typescript-language-server --stdio"
 
 [extension]
 isExtension = true
-buildCommand = "replkit build"
+buildCommand = "bun build"
 outputDirectory = "./dist"
 staticDirectory = "./public"

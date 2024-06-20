@@ -1,1 +1,5 @@
-console.log("Hello via Bun!");
+import { defineConfig } from "vite";
+
+export default defineConfig({
+	plugins: [],
+});
